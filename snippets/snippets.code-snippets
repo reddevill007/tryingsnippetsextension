@@ -1,1 +1,74 @@
-{}
+{
+  "Just Paste Starter Template": {
+    "prefix": "!jp",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
+      "<head>",
+      "<meta charset=\"UTF-8\">",
+      "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">",
+      "<meta name=\"Description\" content=\"Enter your description here\"/>",
+      "<link rel=\"stylesheet\" href=\"https://reddevill007.github.io/just-paste/style.css\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\">",
+      "<title>${1:Title}</title>",
+      "</head>",
+      "<body>",
+      "$0",
+      "</body>",
+      "</html>"
+    ],
+    "description": "Creates just paste's starter template"
+  },
+  "Heading 1": {
+    "prefix": "!hd1",
+    "body": [
+      "<div class=\"hd1\">",
+      "\t<h1>${1:Enter }<span>${2:Text}</span></h1>",
+      "</div>"
+    ],
+    "description": "Creates a beautiful heading"
+  },
+  "Heading 2": {
+    "prefix": "!hd2",
+    "body": [
+      "<div class=\"hd2\">",
+      "\t<h1><span>${1:Enter } </span> ${2:Text}</h1>",
+      "\t<p>Enter your text here</p>",
+      "</div>"
+    ],
+    "description": "Creates a beautiful heading"
+  },
+  "Card 1": {
+    "prefix": "!hd2",
+    "body": [
+      "<div class=\"card1\">",
+      "\t<div class=\"card-image\">",
+      "\t\t<img src=\"${1:Image.name}\" alt=\"image\" />",
+      "\t</div>",
+      "\t<div class=\"card-text\">",
+      "\t\t<span class=\"date\">${2:4 days ago}</span>",
+      "\t\t<h2>${3:Heading Goes Here}</h2>",
+      "\t\t<p>",
+      "\t\t\t${4:Put Paragraph Text Here consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor}",
+      "\t\t</p>",
+      "\t</div>",
+      "\t<div class=\"card-stats\">",
+      "\t\t<div class=\"stat\">",
+      "\t\t\t<div class=\"value\">4<sup>m</sup></div>",
+      "\t\t\t<div class=\"type\">read</div>",
+      "\t\t</div>",
+      "\t\t<div class=\"stat border\">",
+      "\t\t\t<div class=\"value\">5123</div>",
+      "\t\t\t<div class=\"type\">views</div>",
+      "\t\t</div>",
+      "\t\t<div class=\"stat\">",
+      "\t\t\t<div class=\"value\">32</div>",
+      "\t\t\t<div class=\"type\">comments</div>",
+      "\t\t</div>",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "Creates a beautiful card"
+  }
+}

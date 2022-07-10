@@ -2,7 +2,13 @@
   "name": "tryingsnippetsextension",
   "displayName": "tryingSnippetsExtension",
   "description": "Learning how to create vs code extension",
+  "publisher": "Saurabh Pandey",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reddevill007/tryingsnippetsextension"
+  },
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.69.0"
   },

@@ -14,7 +14,7 @@
       "<title>${1:Title}</title>",
       "</head>",
       "<body>",
-      "$0",
+      "\t$2",
       "</body>",
       "</html>"
     ],
@@ -40,7 +40,7 @@
     "description": "Creates a beautiful heading"
   },
   "Card 1": {
-    "prefix": "!hd2",
+    "prefix": "!cd1",
     "body": [
       "<div class=\"card1\">",
       "\t<div class=\"card-image\">",
@@ -65,6 +65,29 @@
       "\t\t<div class=\"stat\">",
       "\t\t\t<div class=\"value\">32</div>",
       "\t\t\t<div class=\"type\">comments</div>",
+      "\t\t</div>",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "Creates a beautiful card"
+  },
+  "Card 2": {
+    "prefix": "!cd2",
+    "body": [
+      "<div class=\"card2\">",
+      "\t<div class=\"card-inner\">",
+      "\t\t<div class=\"card-img\">",
+      "\t\t\t<img src=\"img3.jpg\" alt=\"image\" />",
+      "\t\t\t<div class=\"card-date\">4 jan 2021</div>",
+      "\t\t</div>",
+      "\t\t<div class=\"card-info\">",
+      "\t\t\t<h4 class=\"card-title\">Responsive Web Design</h4>",
+      "\t\t\t<p class=\"card-desc\">",
+      "\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.",
+      "\t\t\t</p>",
+      "\t\t\t<p class=\"card-tags\">",
+      "\t\t\t\tTags : <span>Html</span>, <span>css</span>",
+      "\t\t\t</p>",
       "\t\t</div>",
       "\t</div>",
       "</div>"

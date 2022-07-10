@@ -15,9 +15,92 @@
     />
     <title>Title</title>
   </head>
+  <style>
+    .blog-item {
+      flex: 0 0 33.33%;
+      -ms-flex: 0 0 33.33%;
+      max-width: 33.33%;
+      margin-bottom: 30px;
+    }
+    .blog-item .blog-item-inner {
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #d4d4e3;
+    }
+    .blog-item .blog-item-inner .blog-img {
+      position: relative;
+      overflow: hidden;
+    }
+    .blog-item .blog-item-inner .blog-img img {
+      width: 100%;
+      display: block;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+    }
+    .blog-item .blog-item-inner:hover .blog-img img {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    .blog-item .blog-item-inner .blog-img .blog-date {
+      position: absolute;
+      padding: 4px 10px;
+      border-radius: 5px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 14px;
+      left: 15px;
+      bottom: 15px;
+    }
+    .blog-item .blog-item-inner .blog-info {
+      padding: 30px 15px;
+      background-color: #fdf9ff;
+    }
+    .blog-item .blog-item-inner .blog-info .blog-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #302e4d;
+      text-transform: capitalize;
+      margin-bottom: 10px;
+    }
+    .blog-item .blog-item-inner .blog-info .blog-desc {
+      font-size: 16px;
+      line-height: 25px;
+      color: #504e70;
+      font-weight: 400;
+      margin-bottom: 15px;
+    }
+    .blog-item .blog-item-inner .blog-info .blog-tags {
+      font-size: 14px;
+      line-height: 25px;
+      color: #504e70;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+    .blog-item .blog-item-inner .blog-info .blog-tags a {
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
   <body>
-    <div class="heading">
-      <h1>Our <span>Courses</span></h1>
+    <!-- Blog Item -->
+    <div class="blog-item padd-15">
+      <div class="blog-item-inner shadow-dark">
+        <div class="blog-img">
+          <img src="11.jpg" alt="" />
+          <div class="blog-date">4 jan 2021</div>
+        </div>
+        <div class="blog-info">
+          <h4 class="blog-title">Responsive Web Design</h4>
+          <p class="blog-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore,
+            porro rem quod illo quam, eum alias id, repellendus magni, quas.
+          </p>
+          <p class="blog-tags">
+            Tags : <a href="#">Html</a>, <a href="#">css</a>
+          </p>
+        </div>
+      </div>
     </div>
+    <!-- Blog Item End -->
   </body>
 </html>
